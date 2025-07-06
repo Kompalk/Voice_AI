@@ -1,8 +1,8 @@
-# 🎤 Voice AI Assistant
+# Voice AI Assistant
 
 A simple voice-based AI assistant that listens to your voice, processes it with AI, and speaks back the response.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install Python Dependencies
 ```bash
@@ -24,32 +24,34 @@ python app.py
 ```
 
 ### 5. Open in Browser
-Go to: `http://localhost:5000`
+Go to: `http://localhost:9000`
 
-## 🎯 How to Use
+## How to Use
 
 1. **Click the microphone button** to start recording
 2. **Speak your question** clearly
-3. **Wait for the AI response** - it will speak back to you!
+3. **Wait for the AI response**  it will speak back to you!
 4. **Click the microphone again** to ask another question
+5. **Pause** to interrupt agent in between
+6. **Stop conversation** to end the conversation
 
-## 📁 Files Explained
+## Files Explained
 
 - `app.py` - Flask backend server
 - `templates/index.html` - Frontend webpage with voice controls
 - `requirements.txt` - Python packages needed
 - `env_template.txt` - Template for your API key
 
-## 🔧 Features
+## Features
 
-- ✅ Voice input using browser microphone
-- ✅ Speech-to-text conversion
-- ✅ AI processing with Groq (LangChain)
-- ✅ Text-to-speech response
-- ✅ Conversation transcript display
-- ✅ Simple, beginner-friendly interface
+- Voice input using browser microphone
+- Speech-to-text conversion
+- AI processing with Groq (LangChain)
+- Text-to-speech response
+- Conversation transcript display
+- Simple, beginner-friendly interface
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 **"Speech recognition not supported"**
 - Use Chrome, Edge, or Safari browser
@@ -63,7 +65,7 @@ Go to: `http://localhost:5000`
 - Click the lock icon in your browser address bar
 - Allow microphone access for this site
 
-## 💡 Tips
+## Tips
 
 - Speak clearly and at a normal pace
 - Keep questions simple for best results
