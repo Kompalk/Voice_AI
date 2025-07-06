@@ -15,7 +15,7 @@ pip install -r requirements.txt
 3. Copy the API key
 
 ### 3. Set Up Environment
-1. Copy `env_template.txt` to `.env`
+1. Open `.env`
 2. Replace `your_groq_api_key_here` with your actual API key
 
 ### 4. Run the Application
